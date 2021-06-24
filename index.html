@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Front-end Test Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="section">
+        <div class="container">
+
+            <div id="font-select" class="font-select">
+                <div class="font-select__header">
+                    <div>
+                        <h2 class="font-select__title">
+                            Please select one font
+                        </h2>
+                    </div>
+                    <div>
+                        <ul id="tab-header" class="tab-header" data-target="#custom-tab">
+                            <li class="tab-header__item">
+                                <a href="#">My Fonts</a>
+                            </li>
+                            <li class="tab-header__item">
+                                <a href="#">Buy Fonts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul id="custom-tab" class="tab">
+                    <li class="tab__item">
+                        <div class="tab__content">
+                            <form class="tab__form" action="#" method="post">
+
+                                <div class="row">
+                                    <div class="col-5">
+                                        <input id="merriweather" class="tab__input" type="radio" name="font" value="Merriweather">
+                                        <label for="merriweather" class="tab__label tab__label--large tab__label--green" title="Click to Select">
+                                            <span>
+                                                <span class="tab__label__letter">M</span>
+                                            </span>
+                                            <span>
+                                                <span class="tab__label__title">Merriweather project is lead by Sorkin Type</span>
+                                            </span>
+                                        </label>
+                                    </div>
+
+                                    <div class="col-7">
+                                        <input id="roboto" class="tab__input" type="radio" name="font" value="Roboto">
+                                        <label for="roboto" class="tab__label tab__label--pink" title="Click to Select">
+                                            <span>
+                                                <span class="tab__label__letter">R</span>
+                                            </span>
+                                            <span>
+                                                <span class="tab__label__title">Roboto doesn't compromise, allow-ing letters</span>
+                                            </span>
+                                        </label>
+
+
+                                        <input id="noto" class="tab__input" type="radio" name="font" value="Noto sans">
+                                        <label for="noto" class="tab__label tab__label--blue" title="Click to Select">
+                                            <span>
+                                                <span class="tab__label__letter">NS</span>
+                                            </span>
+                                            <span>
+                                                <span class="tab__label__title">Noto Sans covers over 30 scripts</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </li>
+                    <li class="tab__item">
+                        <div class="tab__content text-center">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi aperiam
+                                aspernatur deleniti dolore ducimus error ipsa nesciunt nostrum, numquam perferendis
+                                provident quae quaerat reprehenderit repudiandae sint suscipit veniam voluptatibus?
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- #font-select -->
+
+            <div class="copyright">
+                <p>
+                    &copy; 2021. Test Project. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
